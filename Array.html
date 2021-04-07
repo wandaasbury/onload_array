@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+      <meta charset="utf-8">
+      <title>Array</title>
+
+    </head>
+
+
+  <body onload="f(myArray)">
+
+      <script>
+
+        var myArray = ["Bonjour", "Hola", "Guten tag"];
+
+        function f(myArray) {
+
+        for (i=0; i < myArray.length; i++){
+          document.write(myArray[i] + "<br>");
+        }
+
+        var username = prompt("What's your name?");
+
+        if (username.length === 4){
+          document.write("Yes");
+        }
+        else{
+          document.write("No");
+        }
+      }
+
+      </script>
+
+  </body
+</html>
